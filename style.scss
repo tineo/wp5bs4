@@ -95,6 +95,15 @@ nav{
   }
 }
 
+.nav-link {
+  padding: 1rem !important;
+
+
+  i {
+    margin-right: .625rem;
+  }
+}
+
 .section-shaped .shape-style-1.shape-primary {
   background: linear-gradient(150deg, #ca7e2b 15%, #c44e27 70%, #f76718 94%) !important;
   /*background: url("https://www.chicagocac.org/wp-content/uploads/2015/04/ChicagoCAC-Resources-960x457.jpg") no-repeat center center fixed !important;
