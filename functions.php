@@ -107,6 +107,9 @@
 		wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css', array(), BOOTSTRAP_VERSION, 'all' );
 		wp_enqueue_style( 'bootstrap' );
 		
+		wp_register_style( 'fontawesome', get_stylesheet_directory_uri().'/vendor/font-awesome/css/font-awesome.min.css', array(), $theme->get( 'Version' ), 'all');
+		wp_enqueue_style( 'fontawesome' );
+
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', array(), $theme->get( 'Version' ), 'screen' );
 		wp_enqueue_style( 'screen' );
 	}

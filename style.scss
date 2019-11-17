@@ -1,5 +1,5 @@
 /*!
-Theme Name: 	Bootsrap 4 on WordPress
+Theme Name: 	Latam Theme
 Theme URI: 		http://bootstrap4onwordpress.babobski.nl/
 Description: 	Bootstrap 4 on Wordpress
 Version: 		1.5
@@ -8,12 +8,35 @@ Author URI: 	https://www.babobski.nl
 Tags: 			babobski, bootstrap, basic theme
 */
 
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
 
+$navbar-nav-link-font-size: 1.25em;
+$black:    #000 !default;
+$navbar-light-color:  rgba($black, .5);
+$navbar-light-toggler-icon-bg:  str-replace(url("data:image/svg+xml !default;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+
+@import "scss/argon.scss";
 
 
 // stylelint-disable declaration-no-important
 
+
 $zindex-fixed: 60px;
+
+$c-border: #9F2042;
+$c-background: #E3E4DB;
+$c-text: #441151;
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+h1{
+  font-family: 'Alata', sans-serif !important;
+  font-size: 3rem !important;
+}
 
 .fixed-top {
   position: fixed;
@@ -37,3 +60,55 @@ $zindex-fixed: 60px;
 #wpadminbar{
   display: none;
 }
+nav{
+  a{
+    font-family: 'Alata', sans-serif !important;
+    color: $white !important;
+  }
+
+}
+
+
+.bg-light{
+  background-color: $white !important;
+}
+.navbar-light{
+  box-shadow: 0 4px 3px -3px rgba(0,0,0,0.5);
+
+  .navbar-brand{
+    img {
+      height: 50px !important;
+    }
+  }
+  a{
+    color: $body-color !important;
+  }
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: $navbar-light-toggler-icon-bg !important;
+}
+
+.navbar-brand {
+  img {
+    -webkit-transition: all .3s ease-in-out;
+    height: 110px !important;
+  }
+}
+
+.section-shaped .shape-style-1.shape-primary {
+  background: linear-gradient(150deg, #ca7e2b 15%, #c44e27 70%, #f76718 94%) !important;
+  /*background: url("https://www.chicagocac.org/wp-content/uploads/2015/04/ChicagoCAC-Resources-960x457.jpg") no-repeat center center fixed !important;
+  background-size: cover !important;
+  height: 100% !important;
+  overflow: hidden !important;*/
+}
+/*
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}*/
