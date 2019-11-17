@@ -140,16 +140,18 @@ nav{
     width: 100%;
   }
 }
-
+.content > h2 {
+  display: none;
+}
 
 .section-shaped {
 
   h1{
     color: $blue;
   }
-  .shape-default{
+  /*.shape-default{
     background: transparent !important;
-  }
+  }*/
 
   .shape-style-9 {
     &.shape-primary {

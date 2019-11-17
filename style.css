@@ -12710,11 +12710,16 @@ nav a {
   .hs-form-field
   .hs-input {
     width: 100%; } }
-.section-shaped h1 {
-  color: #5e72e4; }
-.section-shaped .shape-default {
-  background: transparent !important; }
-.section-shaped .shape-style-9.shape-primary {
-  background: transparent; }
+.content > h2 {
+  display: none; }
+
+.section-shaped {
+  /*.shape-default{
+    background: transparent !important;
+  }*/ }
+  .section-shaped h1 {
+    color: #5e72e4; }
+  .section-shaped .shape-style-9.shape-primary {
+    background: transparent; }
 
 /*# sourceMappingURL=style.css.map */
