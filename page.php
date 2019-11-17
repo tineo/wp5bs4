@@ -62,8 +62,6 @@
 </div>
 
 
-<section class="section pb-0 section-components">
-    <div class="container mb-5">
 
 <div class="content">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -76,8 +74,5 @@
 	
 	<?php endwhile; ?>
 </div>
-
-    </div>
-</section>
 
 <?php BsWp::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
