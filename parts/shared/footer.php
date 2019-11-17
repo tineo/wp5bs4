@@ -32,15 +32,15 @@
                 <a target="_blank" href="https://www.facebook.com/latamclub" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
                     <i class="fa fa-facebook-square"></i>
                 </a>
-                <a target="_blank" href="https://twitter.com/LatamClub/" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+                <!--<a target="_blank" href="https://twitter.com/LatamClub/" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
                     <i class="fa fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://instagram.com/LatamClub/" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+                </a>-->
+                <a target="_blank" href="https://instagram.com/TheLatamClub/" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
                     <i class="fa fa-instagram"></i>
                 </a>
-                <a target="_blank" href="https://linkedin.com/company/LatamClub/" class="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+                <!--<a target="_blank" href="https://linkedin.com/company/LatamClub/" class="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
                     <i class="fa fa-linkedin"></i>
-                </a>
+                </a>-->
             </div>
         </div>
     </div>
