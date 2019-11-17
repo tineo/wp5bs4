@@ -36,7 +36,7 @@
             <div class="col px-0">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <img alt="image" src="https://latamclub.org/wp-content/uploads/2019/11/logo200-1.png" style="width: 200px;" class="img-fluid">
+                        <img alt="image" src="https://latamclub.org/wp-content/uploads/2019/11/logo200-1.png" style="width: 280px;" class="img-fluid">
                         <p class="lead text-white">Nos centramos en el desarrollo de capacidades tecnológicas, de emprendimiento, socio-emocionales y de gestión de la multiculturalidad.</p>
                         <div class="btn-wrapper mt-5">
                             <!--<a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">

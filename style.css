@@ -12697,5 +12697,24 @@ nav a {
   color: white;
   text-align: center;
 }*/
+@media (min-width: 481px) {
+  form.hs-form .form-column-2 .hs-form-field:nth-child(2n + 1) {
+    padding: 0 10px 0 0; } }
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+  form.hs-form-60d62b79-9ba4-40d2-816a-bad0047df045_4af4179a-d55c-4feb-90ae-8ab499c4ceaa:not(.hs-video-form)
+  .form-columns-2
+  .hs-form-field
+  .hs-input,
+  form.hs-form-60d62b79-9ba4-40d2-816a-bad0047df045_4af4179a-d55c-4feb-90ae-8ab499c4ceaa:not(.hs-video-form)
+  .form-columns-3
+  .hs-form-field
+  .hs-input {
+    width: 100%; } }
+.section-shaped h1 {
+  color: #5e72e4; }
+.section-shaped .shape-default {
+  background: transparent !important; }
+.section-shaped .shape-style-9.shape-primary {
+  background: transparent; }
 
 /*# sourceMappingURL=style.css.map */

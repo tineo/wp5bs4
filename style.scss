@@ -140,3 +140,21 @@ nav{
     width: 100%;
   }
 }
+
+
+.section-shaped {
+
+  h1{
+    color: $blue;
+  }
+  .shape-default{
+    background: transparent !important;
+  }
+
+  .shape-style-9 {
+    &.shape-primary {
+      background: transparent;
+              //linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+    }
+  }
+}
