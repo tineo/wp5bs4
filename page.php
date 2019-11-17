@@ -37,7 +37,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-8 text-center">
                         <img alt="image" src="https://latamclub.org/wp-content/uploads/2019/11/logo200-1.png" style="width: 280px;" class="img-fluid">
-                        <p class="lead text-white">Nos centramos en el desarrollo de capacidades tecnológicas, de emprendimiento, socio-emocionales y de gestión de la multiculturalidad.</p>
+                        <p class="lead text-white">Somos pioneros en construir una comunidad de emprendedores que le hace frente a los retos del siglo XXI.</p>
                         <div class="btn-wrapper mt-5">
                             <!--<a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                                 <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
@@ -45,7 +45,7 @@
                             </a>-->
                             <a href="#contacto" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank">
                                 <span class="btn-inner--icon"><i class="fa fa-envelope"></i></span>
-                                <span class="btn-inner--text"><span class="text-warning"></span> Contactanos</span>
+                                <span class="btn-inner--text"><span class="text-warning"></span> Contáctanos</span>
                             </a>
                         </div>
                     </div>

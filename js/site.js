@@ -18,5 +18,8 @@ jQuery(document).ready(function($) {
         }
     });
 
+    $(".content > h1").addClass("container my-5");
+    $(".hbspt-form").addClass("container");
+
 });
 
