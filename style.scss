@@ -7,24 +7,33 @@ Author: 		Babobski
 Author URI: 	https://www.babobski.nl
 Tags: 			babobski, bootstrap, basic theme
 */
+
+
+
+
+// stylelint-disable declaration-no-important
+
+$zindex-fixed: 60px;
+
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 60px; }
-
-.content {
-  margin-top: 60px; }
+  z-index: $zindex-fixed;
+}
+.content{
+  margin-top: $zindex-fixed;
+}
 
 .fixed-bottom {
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 60px; }
+  z-index: $zindex-fixed;
+}
 
-#wpadminbar {
-  display: none; }
-
-/*# sourceMappingURL=style.css.map */
+#wpadminbar{
+  display: none;
+}
